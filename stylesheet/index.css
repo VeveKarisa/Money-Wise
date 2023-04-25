@@ -94,7 +94,7 @@
   /* Text */
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 350;
   font-size: 20px;
   line-height: 35px;
   /* or 125% */
@@ -140,7 +140,7 @@
 
   .btn-daftar button:hover{
     background-color: white;
-    color: #F46B2F ;
+    color: #F46B2F;
   }
 
   .btn-masuk button{
