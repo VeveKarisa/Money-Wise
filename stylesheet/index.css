@@ -35,7 +35,7 @@
 }
 
 .nav-menu ul li a:hover{
-  color: #EC9F44;
+  color: #F46B2F;
 }
 
 .logo{
@@ -106,8 +106,8 @@
   position: absolute;
   width: 60px;
   height: 5600px;
-  left: 750px;
-  top: 120px;
+  left: 700px;
+  top: 110px;
   align-items: center;
 }
 

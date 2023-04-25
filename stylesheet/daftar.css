@@ -35,7 +35,7 @@
   }
   
   .nav-menu ul li a:hover{
-    color: #EC9F44;
+  color: #F46B2F;
   }
   
   .logo{
@@ -75,54 +75,11 @@
     top: 130px;
   }
 
-  .container {
-    display: flex;
-    justify-content: center;
-}
-
-form {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 800px;
-    margin-top: 50px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #f2f2f2;
-}
-
-/* styling label dan input */
-label {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: #333;
-}
-
-input[type="text"], input[type="email"], input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-/* membuat kolom menjadi lebar yang sama */
-.col {
-    flex: 1;
-    margin: 0 10px;
-}
-
-/* membuat tombol menjadi center */
-button {
-    display: block;
-    margin: 0 auto;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-}
+ .daftar-judul{
+  font-family: 'Nunito';
+  font-size: 20px;
+  color: #F46B2F;
+  position: absolute;
+  left: 820px;
+  top: 110px;
+ }
