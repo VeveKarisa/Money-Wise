@@ -178,15 +178,3 @@
     text-align: center;
   }
 
-  .social-icons {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .social-icons a {
-    margin-left: 10px;
-    color: #fff;
-    font-size: 50px;
-  }
-  
-
