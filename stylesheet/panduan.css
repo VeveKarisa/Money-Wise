@@ -1,5 +1,6 @@
 .body {
     background-color: #4255D0;
+    font-family: 'Nunito';
   }
   
   .navbar {
@@ -70,7 +71,8 @@
   }
   
   .judul h1{
-    font-family: 'nunito';
+    font-family: 'Nunito';
+    font-weight: bold;
     font-size: 38px;
     color: white;
     text-align: center;
