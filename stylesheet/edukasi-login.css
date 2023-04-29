@@ -1,0 +1,128 @@
+.body {
+    background-color: #4255D0;
+  }
+  
+  .navbar {
+    font-family: 'nunito';
+    font-weight: 900;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    width: 1200px;
+    height: 45px;
+    justify-content: space-between;
+  }
+  
+  .nav-menu ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-menu ul li{
+    padding: 6px 10px 10px 0px;
+  }
+  
+  .nav-menu ul li a{
+    margin: auto;
+    padding: 6px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    opacity: 80%;
+  }
+  
+  .nav-menu ul li a:hover{
+    color: #F46B2F;
+  }
+  
+  .logo{
+    margin-bottom: auto;
+    padding: 6px 20px;
+  }
+  
+  .vector {
+    position: absolute;
+    left: 35.53%;
+    right: 70.36%;
+    top: 3.52%;
+    bottom: 73.83%;
+  }
+  
+  .vector img{
+    height: 150px;
+    opacity: 70%;
+  }
+  
+  .pesawat{
+    position: absolute;
+    left: 13.75%;
+    right: 79.79%;
+    top: 77.64%;
+    bottom: 11.82%;
+  }
+  
+  .pesawat img{
+    height: 100px;
+    opacity: 70%;
+  }
+  
+  .judul h1{
+    font-family: 'nunito';
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .judul p{
+    font-family: 'nunito';
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+  }
+
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(3.1fr);
+  }
+
+  .card p{
+    margin-left: 20px;
+    font-family: 'Nunito';
+    font-weight: 1000;
+    color: white;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width:  150px;
+    border-radius: 25px;
+    background: linear-gradient(#E16546, #E16546);
+    margin-left: 400px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .container {
+    padding: -10px 20px;
+  }
+
+  footer {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
