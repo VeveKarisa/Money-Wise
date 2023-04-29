@@ -32,47 +32,51 @@
   <div class="daftar-judul">
     <h1>DAFTAR</h1>
   </div>
-  <div class="form-container">
-    <div class="form-group nama">
-      <label for="nama-lengkap">Nama Lengkap</label>
-      <input type="text" id="nama-lengkap" value=" Masukkan Nama">
-    </div>
-    <div class="form-group tanggal_lahir">
-      <label for="tanggal-lahir">Tanggal Lahir</label>
-      <input type="date" id="tanggal-lahir" placeholder=" Masukkan Tanggal Lahir">
-    </div>
-    <div class="form-group jenis_kelamin">
-      <label for="jenis-kelamin">Jenis Kelamin</label>
-      <select id="jenis-kelamin">
-        <option>Jenis Kelamin</option>
-        <option value="laki-laki">Laki-laki</option>
-        <option value="perempuan">Perempuan</option>
-      </select>
-    </div>
-    <div class="form-group email">
-      <label for="email">Email</label>
-      <input type="email" id="email" value=" Masukkan Email">
-    </div>
-    <div class="form-group nama_ibu">
-      <label for="nama-ibu">Nama Ibu</label>
-      <input type="text" id="nama-ibu" value="Masukkan Nama Ibu">
-    </div>
-    <div class="form-group username">
-      <label for="username">Username</label>
-      <input type="text" id="username" value="Masukkan Username">
-    </div>
-    <div class="form-group password">
-      <label for="password">Password</label>
-      <input type="password" id="password" placeholder=" Masukkan Password">
-    </div>
-    <div class="btn-daftar">
-      <a href="login.html"><button>Daftar</button></a>
-    </div>
-    <div class="btn-kembali">
-      <a href="Index.html"><button>Kembali</button></a>
-    </div>
-  </div>
 
+  <form action="masuk.html">
+    <div class="form-container">
+      <div class="form-group nama">
+        <label for="nama-lengkap">Nama Lengkap</label>
+        <input type="text" id="nama-lengkap" placeholder="Masukkan Nama" required>
+      </div>
+      <div class="form-group tanggal_lahir">
+        <label for="tanggal-lahir">Tanggal Lahir</label>
+        <input type="date" id="tanggal-lahir" placeholder=" Masukkan Tanggal Lahir" required>
+      </div>
+      <div class="form-group jenis_kelamin">
+        <label for="jenis-kelamin">Jenis Kelamin</label>
+        <select id="jenis-kelamin" required>
+          <option>Jenis Kelamin</option>
+          <option value="laki-laki">Laki-laki</option>
+          <option value="perempuan">Perempuan</option>
+        </select>
+      </div>
+      <div class="form-group email">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder=" Masukkan Email" required>
+      </div>
+      <div class="form-group nama_ibu">
+        <label for="nama-ibu">Nama Ibu</label>
+        <input type="text" id="nama-ibu" placeholder="Masukkan Nama Ibu" required>
+      </div>
+      <div class="form-group username">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Masukkan Username" required>
+      </div>
+      <div class="form-group password">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder=" Masukkan Password" required>
+      </div>
+      <div class="btn-daftar">
+        <button>Daftar</button>
+      </div>
+      <div class="btn-kembali">
+        <a href="Index.html">Kembali</a>
+      </div>
+    </div>
+  
+  </form>
+ 
   <footer>
     <div>
       <p>Copyright © 2023 Money Wise - Infinite Learning</p>

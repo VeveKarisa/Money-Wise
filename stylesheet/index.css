@@ -108,6 +108,7 @@
 }
 
 .konten{
+  justify-content: center;
   display: flex;
   margin: auto;
   align-items: center;
