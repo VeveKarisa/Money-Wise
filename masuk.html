@@ -32,31 +32,39 @@
   <div class="masuk-judul">
     <h1>MASUK</h1>
   </div>
-  <div class="form-container">
-    <div class="form-group username">
-      <label for="username">Username</label>
-      <input type="text" id="username" placeholder="Masukkan Username">
-    </div>
-    <div class="form-group password">
-      <label for="password">Password</label>
-      <input type="text" id="password" placeholder="Masukkan Password">
 
-      <div class="lupa-password">
-        <a href="lupa_password.html">Lupa Password</a>
+  <form action="index-login.html">
+    <div class="form-container">
+      <div class="form-group username">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Masukkan Username" required>
       </div>
-    </div>
-    
-    <div class="btn-masuk">
-        <a href="index-login.html"><button>Masuk</button></a>
+      <div class="form-group password">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Masukkan Password" required>
+  
+        <div class="lupa-password">
+          <a href="lupa_password.html">Lupa Password</a>
+        </div>
+      </div>
+
+      <div class="btn-masuk">
+        <button>Masuk</button>
       </div>
       <div class="btn-kembali">
-        <a href="Index.html"><button>Kembali</button></a>
+        <a href="Index.html">Kembali</a>
       </div>
+    </div>
+
+  </form>
+
   </div>
 </body>
+
 <footer>
     <div>
       <p>Copyright © 2023 Money Wise - Infinite Learning</p>
     </div>
   </footer>
+
 </html>

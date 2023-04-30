@@ -1,5 +1,6 @@
 .body {
     background-color: #4255D0;
+    height: 100vh;
   }
   
   .navbar {
@@ -70,7 +71,7 @@
   }
   
   .judul h1{
-    font-family: 'nunito';
+    font-family: 'Nunito';
     font-size: 38px;
     color: white;
     text-align: center;
@@ -88,30 +89,67 @@
   .grid{
     display: grid;
     grid-template-columns: repeat(3.1fr);
+    gap: 85px;
+    margin-top: 30px;
   }
 
   .card p{
-    margin-left: 20px;
+    display: flex;
     font-family: 'Nunito';
     font-weight: 1000;
     color: white;
+    margin: -10px 40px 0px 0px;
+    left: 15px;
+  
   }
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    max-width:  150px;
+    width:  150px;
     border-radius: 25px;
-    background: linear-gradient(#E16546, #E16546);
-    margin-left: 400px;
+    align-items: center;
+    height: 100px;
+ 
   }
   
   .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2);
   }
 
-  .container {
-    padding: -10px 20px;
+  .card-color1{
+    background: linear-gradient(#E16546, rgba(225,101,70,0.6));
   }
+  
+  .card-color2{
+    background: linear-gradient(#A787D0, rgba(167,135,208,0.4));
+  }
+
+  .card-color3{
+    background: linear-gradient(#3E9ADA, rgba(97,170,220,0.3));
+  }
+
+  .card-color4{
+    background: linear-gradient(#E7C65A, rgba(231,198,90,0.6));
+  }
+
+  .card-color5{
+    background: linear-gradient(#6B698C, rgba(107,105,140,0.6));
+  }
+
+  .card-color6{
+    background: linear-gradient(#75CCCA, rgba(117,204,202,0.6));
+  }
+
+  .card-color7{
+    background: linear-gradient(#79C78B, rgba(121,199,139,0.6));
+  }
+
+  .card-color8{
+    background: linear-gradient(#D99464, rgba(217,148,100,0.7));
+  }
+  
+  
+  
 
   footer {
     font-family: 'Nunito';
@@ -121,8 +159,7 @@
     color: #FFFFFF;
     position: relative;
     left: 0;
-    bottom: 0;
+    bottom: -40px;
     width: 100%;
     text-align: center;
   }
-  
