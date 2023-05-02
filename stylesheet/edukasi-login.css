@@ -197,18 +197,15 @@
     background: linear-gradient(#D99464, rgba(217,148,100,0.7));
   }
   
-  
-  
-
   footer {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
-    position: relative;
+    position: fixed;
     left: 0;
-    bottom: -40px;
+    bottom: 0;
     width: 100%;
     text-align: center;
   }
