@@ -3,72 +3,40 @@
 }
 
 .navbar {
-    font-family: 'nunito';
-    font-weight: 900;
-    margin: auto;
-    margin-top: 20px;
-    align-items: center;
-    display: flex;
-    background-color: transparent;
-    width: 1200px;
-    height: 45px;
-    justify-content: space-between;
-  }
-  
-  .navbar ul{
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-  }
+  font-family: 'nunito';
+  font-weight: 900;
+  margin: auto;
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  background-color: transparent;
+  width: 1200px;
+  height: 45px;
+  justify-content: space-between;
+}
 
-  .navbar ul li{
-    padding: 6px 10px 10px 0px;
-    position: relative;
-  }
-  
-  .navbar ul li a{
-    display: block;
-    margin: auto;
-    padding: 6px 20px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    opacity: 80%;
-  }
-  
-  .navbar ul li a:hover{
-    color: #F46B2F;
-  }
-  
- 
-  nav {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    padding: 0 10px;
-  }
-  
-  nav li a {
-    color: #fff;
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-  }
-  
-  nav li:hover {
-    background-color: #555;
-  }
+.nav-menu ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menu ul li{
+  padding: 6px 10px 10px 0px;
+}
+
+.nav-menu ul li a{
+  margin: auto;
+  padding: 6px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  opacity: 80%;
+}
+
+.nav-menu ul li a:hover{
+  color: #F46B2F;
+}
   
   .btn-daftar { 
     height: 40px;

@@ -1,0 +1,352 @@
+.body {
+  background-color: #4255D0;
+}
+
+.navbar {
+  font-family: 'nunito';
+  font-weight: 900;
+  margin: auto;
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  background-color: transparent;
+  width: 1200px;
+  height: 45px;
+  justify-content: space-between;
+}
+
+.nav-menu ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menu ul li{
+  padding: 6px 10px 10px 0px;
+}
+
+.nav-menu ul li a{
+  margin: auto;
+  padding: 6px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  opacity: 80%;
+}
+
+.nav-menu ul li a:hover{
+  color: #F46B2F;
+}
+
+.btn-daftar { 
+  height: 40px;
+  background: #F46B2F;
+  border-radius: 10px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  color: white;
+  font opacity: 80%;
+  border-style: none;
+  }
+
+  .btn-daftar:hover{
+    background-color: white;
+    color: white;
+  }
+
+  .logo{
+    margin-bottom: auto;
+    padding: 6px 20px;
+  }
+  
+  .vector {
+    position: absolute;
+    left: 74%;
+    right: 70.36%;
+    top: 46%;
+    bottom: 73.83%;
+  }
+  
+  .vector img{
+    height: 230px;
+    opacity: 70%;
+  }
+  
+  .pesawat{
+    position: absolute;
+    left: 6.75%;
+    right: 79.79%;
+    top: 154%;
+    bottom: 11.82%;
+  }
+  
+  .pesawat img{
+    height: 160px;
+    opacity: 70%;
+  }
+  
+  .judul h2{
+    font-family: 'Nunito';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+  
+  .judul p{
+    font-family: 'nunito';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    margin-bottom: 25px;
+  }
+
+  #editable {
+    position: absolute;
+    left: 90px;
+    top: 200px;
+    border: none;
+    outline: none;
+    font-family: 'nunito';
+    font-size: 50px;
+    font-weight: 900;
+    color: #F46B2F;
+    margin-top: 250px;
+  }
+  
+  #edit-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 345px;
+    top: 465px;
+  }
+  
+  #edit-btn:hover {
+    color: #35BA79;
+  }
+
+  .tabungan {
+    display: flex;
+    margin-top: 220px;
+    justify-content: center;
+  }
+  
+  .tabungan img{
+    height: 350px;
+  }
+  
+  .nominal h2{
+    font-family: 'Nunito';
+    font-size: 47px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 35px;
+  }
+
+  #editable2 {
+    position: absolute;
+    right: 120px;
+    top: 200px;
+    border: none;
+    outline: none;
+    font-family: 'nunito';
+    font-size: 50px;
+    font-weight: 900;
+    color: #F46B2F;
+    margin-top: 860px;
+  }
+  
+  #edit-btn2 {
+    border: none;
+    background-color: transparent;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 400px;
+    top: 1070px;
+  }
+
+  #edit-btn2:hover {
+    color: black;
+  }  
+
+  .tabungan2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  
+  .nominal2 h2{
+    font-family: 'Nunito';
+    font-size: 47px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 35px;
+  }  
+
+  .btn-lihat{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn-lihat button{
+    margin-top: 10px;
+    width: 280px;
+    height: 50px;
+    background: #F46B2F;
+    border-radius: 5px;
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-size: 22px;
+    color: white;
+    font opacity: 80%;
+    border-style: none;
+    letter-spacing: 2px;
+  }
+  
+  .btn-lihat button:hover{
+    background-color: white;
+    color: #F46B2F ;
+   
+  }
+  
+  .judul2 h1{
+    font-family: 'Nunito';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 40px;
+  }
+  
+  .judul2 p{
+    font-family: 'Nunito';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: -40px;
+  }
+
+  #p2{
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    margin-top: 60px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 150px);
+    column-gap: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .check-btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-image: linear-gradient(to bottom, #35BA79, #67756f);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+    font-style: bold;
+    font-family: 'nunito';
+  }
+
+  .check-btn:hover {
+    background-image: linear-gradient(to bottom, #2bd382, #2bd382);
+  }
+  
+  .day-title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'nunito';
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .grid-item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .check-btn2 {
+    width: 100px;
+    height: 100px;
+    border: 10px solid #35BA79;
+    border-radius: 50%;
+    background-color: #4255D0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .check-btn2:hover {
+    border: none;
+    background-image: linear-gradient(to bottom, #35BA79, #67756f);
+  }
+
+  .ceklis {
+    align-items: center;
+    height: 25px;
+    weight: 25px;
+  }
+
+  .day-title2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'nunito';
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .teks h1{
+    font-family: 'Nunito';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 65px;
+  }
+
+  footer {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #FFFFFF;
+    position: relative;
+    top : 150px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
