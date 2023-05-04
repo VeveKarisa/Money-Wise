@@ -314,6 +314,120 @@
     border: none;
     background-image: linear-gradient(to bottom, #35BA79, #67756f);
   }
+  
+  /* Styles for the form */
+  .form-popup {
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 400px;
+    align-items: center;
+    width: 800px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  .form-container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .form-container h2 {
+    font-family: 'nunito';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #F46B2F;
+  }
+
+  .form-container h3 {
+    font-family: 'nunito';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #35BA79;
+  }
+
+  .vector2 {
+    position: absolute;
+    left: 70%;
+    right: 10%;
+    top: 70%;
+    bottom: 11.82%;
+  }
+  
+  .vector2 img{
+    height: 150px;
+    opacity: 70%;
+    filter: invert(70%);
+    z-index: 1;
+  }
+  
+  .pesawat2{
+    position: absolute;
+    left: 72%;
+    right: 10%;
+    top: 5%;
+    bottom: 11.82%;
+  }
+  
+  .pesawat2 img{
+    height: 140px;
+    opacity: 70%;
+    filter: invert(70%);
+    z-index: 1;
+  }
+  
+  .buku{
+    position: absolute;
+    left: 3%;
+    right: 10%;
+    top: 37%;
+    bottom: 11.82%;
+  }
+  
+  .buku img{
+    height: 130px;
+    opacity: 100%;
+    z-index: 1;
+  }
+
+  .kado{
+    align-items: center;
+    margin-left: 210px;
+    margin-bottom: 10px;
+  }
+  
+  .kado img{
+    height: 350px;
+  }
+  
+  .form-container button[type=submit] {
+    background-color: #F46B2F;
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'nunito';
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-left: 310px;
+    width: 16%;
+  }
+  
+  .form-container button[type=button]:hover {
+    background-color: #F46B2F;
+  }
+  
+  /* Style to show the form */
+  .form-popup.show {
+    display: block;
+  }
 
   .ceklis {
     align-items: center;
