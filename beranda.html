@@ -17,13 +17,13 @@
 
       <div class="nav-menu">
           <ul>
-              <li><a href="index-login.html">Beranda</a></li>
+              <li><a href="beranda.html">Beranda</a></li>
               <li><a href="edukasi-login.html">Edukasi</a></li>
               <li><a href="tentang-login.html">Tentang</a></li>
               <li><a href="panduan-login.html">Panduan</a></li>
-              <li><a href="pengaturan.html">Akun</a></li>
+              <li><a href="panduan.html">Akun</a></li>
               <li>
-                <a href="index-login.html" class="btn-daftar">Kembali</a>
+                <a href="Index.html" class="btn-daftar">Logout</a>
             </li>
           </ul>
       </div>
@@ -72,7 +72,46 @@
     </div>
 
 	<div class="btn-target">
-		<a href="target.html"><button>Buat Target</button></a>
+		<button onclick="openForm()">Buat Target</button>
+        <div class="form-popup" id="myForm">
+            <form action="target.html" class="form-container">
+                <h2>Apa Targetmu?</h2>
+                
+                <div class="vector2"><img src="assets/Vector.png" alt=""></div>
+                <div class="pesawat2"><img src="assets/pesawat.png" alt=""></div>
+                <div class="buku"><img src="assets/bukuu.png" alt=""></div>
+
+                <label for="question-1"><b>Apa yang ingin kamu beli?</b></label>
+                <div>
+                    <input type="text" placeholder="Contoh : Tas Sekolah" name="question-1" required>
+                </div>
+
+                <label for="question-2"><b>Berapa harga barangnya?</b></label>
+                <div>
+                    <input type="text" placeholder="Contoh : Rp. 100.000,-" name="question-2" required>
+                </div>
+
+                <label for="question-3"><b>Berapa lama kamu ingin mencapainya?</b></label>
+                <div class="grid-item">
+                    <button class="check-btn"></button><div class="day-title">1 Minggu</div>
+                    <button class="check-btn"></button><div class="day-title">2 Minggu</div>
+                    <button class="check-btn"></button><div class="day-title">3 Minggu</div>
+                </div>
+                <div class="grid-item2">
+                    <button class="check-btn2"></button><div class="day-title2">1 Bulan</div>
+                    <button class="check-btn2"></button><div class="day-title2">1 Tahun</div>
+                </div>
+                
+                <label for="question-4"><b>atau</b></label>
+                <div>
+                    <input type="text" placeholder="Ketik lama waktu, contoh : 5 Minggu" name="question-4" required>
+                </div>
+
+                <button type="submit" class="btn">Buat target</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Batal</button>
+            </form>
+            <script src="script_beranda.js"></script>
+        </div>
 	</div>
 	
 </div>
