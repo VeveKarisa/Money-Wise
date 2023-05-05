@@ -1,48 +1,49 @@
 .body {
-    background-color: #4255D0;
-    font-family: 'Nunito';
-  }
+  background-color: #4255D0;
+  font-family: 'Nunito';
+}
+
+.navbar {
+  font-family: 'nunito';
+  font-weight: 900;
+  margin: auto;
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  background-color: transparent;
+  width: 1200px;
+  height: 45px;
+  justify-content: space-between;
+}
+
+.nav-menu ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menu ul li{
+  padding: 6px 10px 10px 0px;
+}
+
+.nav-menu ul li a{
+  margin: auto;
+  padding: 6px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  opacity: 80%;
+}
+
+.nav-menu ul li a:hover{
+  color: #F46B2F;
+}
+
+.logo{
+  margin-bottom: auto;
+  padding: 6px 20px;
+}
   
-  .navbar {
-    font-family: 'nunito';
-    font-weight: 900;
-    margin: auto;
-    margin-top: 20px;
-    align-items: center;
-    display: flex;
-    background-color: transparent;
-    width: 1200px;
-    height: 45px;
-    justify-content: space-between;
-  }
-  
-  .nav-menu ul{
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-  }
-  
-  .nav-menu ul li{
-    padding: 6px 10px 10px 0px;
-  }
-  
-  .nav-menu ul li a{
-    margin: auto;
-    padding: 6px 20px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    opacity: 80%;
-  }
-  
-  .nav-menu ul li a:hover{
-    color: #F46B2F;
-  }
-  
-  .logo{
-    margin-bottom: auto;
-    padding: 6px 20px;
-  }
   
   .vector {
     position: absolute;
